@@ -1,0 +1,17 @@
+.product-cards{
+    height: 700px;
+    background-color: #E8F7ff;
+}
+.prod{
+    /* background-color: aqua; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around ;
+}
+.products{
+height: 280px;
+width: 270px;
+
+}

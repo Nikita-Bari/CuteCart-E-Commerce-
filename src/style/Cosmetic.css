@@ -1,0 +1,17 @@
+#back-box{
+    height: 700px;
+    background: #E8F7FF;
+}
+.product-container{
+    /* background-color: aqua; */
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around ;
+}
+.pro{
+height: 280px;
+width: 270px;
+
+}

@@ -1,0 +1,33 @@
+.foot{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #0E2148;
+
+}
+.items{
+    width: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 900px;
+    font-size: 30px;
+}
+
+.facebook:hover{
+    border: 1px white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px white;
+} 
+.instagram:hover{
+    border: 1px white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}  
+ .twitter:hover:hover{
+    border: 1px white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}     
