@@ -17,12 +17,12 @@ function App() {
         <Navbar/>
         <Header/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Signin/>}/>
+          <Route path="/home" element={<Home/>}/>
           <Route path="/cosmetic" element={<Cosmetic/>}/>
           <Route path="/fashion" element={<Fashion/>}/>
           <Route path="/electronic" element={<Electronic/>}/>
           <Route path="/essential" element={<Essential/>}/>
-          <Route path="/signin" element={<Signin/>}/>
         </Routes>
 <Footer/>
       </BrowserRouter>
