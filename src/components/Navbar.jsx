@@ -30,7 +30,7 @@ if(text==="fashions" || text==="fashion") {
     return(
         <div>
    <nav>
-    <Link to="/"><img src={logo} alt="amz" className="amz-logo"/></Link>
+    <Link to="/home"><img src={logo} alt="amz" className="amz-logo"/></Link>
 
 
   <div className="search-bar">
@@ -41,7 +41,7 @@ if(text==="fashions" || text==="fashion") {
 
 
   <div className="signin-btn">
-    <Link to="/signin" className="sign-link">SignIn</Link>
+    <Link to="/" className="sign-link">SignIn</Link>
   </div>
 </nav>
            
