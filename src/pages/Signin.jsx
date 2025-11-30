@@ -13,7 +13,7 @@ const [password, SetPassword]=useState("");
                         alert("please fill all the details");
         }
         else{
-                navigate("/");
+                navigate("/home");
                 alert("Signin Successful");
         }
 }
