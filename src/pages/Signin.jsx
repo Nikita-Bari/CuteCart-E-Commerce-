@@ -3,6 +3,8 @@ import "../style/Signin.css";
 import {useNavigate} from "react-router-dom";
 
 export default function Signin () {
+  const encodedValue = encodeURIComponent(inputValue);
+
 const [email, SetEmail]=useState("");
 const [password, SetPassword]=useState("");
 
@@ -13,7 +15,7 @@ const [password, SetPassword]=useState("");
                         alert("please fill all the details");
         }
         else{
-                navigate("/home");
+                navigate("/home/${encodedValue}");
                 alert("Signin Successful");
         }
 }
